@@ -1,0 +1,649 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The poore mans reliefe</title>
+            <author>Tonstall, George, b. 1616 or 17.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1654</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A62932</idno>
+            <idno type="STC">Wing T1888A</idno>
+            <idno type="STC">ESTC R222351</idno>
+            <idno type="EEBO-CITATION">99833532</idno>
+            <idno type="PROQUEST">99833532</idno>
+            <idno type="VID">38009</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A62932)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 38009)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2067:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The poore mans reliefe</title>
+                  <author>Tonstall, George, b. 1616 or 17.</author>
+               </titleStmt>
+               <extent>22 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>ca. 1654]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprint conjectured by Wing.</note>
+                  <note>Caption title.</note>
+                  <note>By George Tonstall. Cf. Wing.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Poor --  Early works to 1800.</term>
+               <term>Medicine, Popular --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-12</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-12</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:38009:1" rendition="simple:additions"/>
+            <head>The Poore Mans Reliefe.</head>
+            <p>HAving ſent abroad a Paper, ſignifying, That I deſire the Poor as well as the Rich might have the benefit of that Talent which God had given me: which was the ſcope of that Meſſage to the Pariſhes of this County binding my ſelfe by Publique Engagement, to acquit the ſincerity of my propoſall herein, by regiſtring all the undertakings which providence in this nature ſhould ſend unto me. I found pre<g ref="char:EOLhyphen"/>ſently thoſe different effects this generall preſcript wrought upon mens humors, many approving it, by atteſtation of ſub<g ref="char:EOLhyphen"/>ſcription: Others approving the thing, but doubting of the probability of having it effected. For removing of impro<g ref="char:EOLhyphen"/>babilities (as well as I am able) is the ſumme of this Relation.</p>
+            <p>In a publique worke all the Inſtruments muſt be anſwera<g ref="char:EOLhyphen"/>ble to their parts, or otherwiſe the deſigne will faile in the doing.</p>
+            <list>
+               <item>1. <hi>The Abillity, Honeſty, and Faithful<g ref="char:EOLhyphen"/>neſſe of the Phyſition.</hi>
+               </item>
+               <item>2. <hi>The liberall and willing Contribution of the Benefactors.</hi>
+               </item>
+               <item>3. <hi>The Care and Diligence of the Chy<g ref="char:EOLhyphen"/>rurgeon and Apothecary.</hi>
+               </item>
+            </list>
+            <p>Theſe are the parts, if any of them fayle, the worke is im<g ref="char:EOLhyphen"/>payred.</p>
+            <p n="1">1. To the firſt, <hi>I ſhall acquaint you with the Objections of mine owne Heart; when I diſcovered, that Providence did re<g ref="char:EOLhyphen"/>quire I ſhould put forward the motion for ſupply of the Poore, and ſetling (if it were poſsible) an honourable Maintenance
+<pb n="2" facs="tcp:38009:2"/>for Phyſitians. The firſt Objection was, That I could not ſpeak herein, but 'twould ſavour of Self-love, and Covetouſneſſe, which I had moſt cauſe to abhorre of any thing. This was removed, by freely acquainting a Chriſtian Magiſtrate, how God had dealt with me in cure of this Gangoreen, which corrupts the well<g ref="char:EOLhyphen"/>fare of common good. The next Objection, was the ſad reflection of my diſtemper and weakneſſe of bodily and Spirituall ſtrength, that 'twas not probable</hi> I <hi>ſhould mannage ſuch publique affaires anſwerable to my promiſe and expectation of the County. To this,</hi> I <hi>thus concluded, That having learned by experience, how much diſcouragement had wrong'd the free mercy of God, who delights to make his power known by effecting great works with moſt deſpicable and improbable Agents,</hi> I <hi>durſt not give way to ſuch thoughts, but to proſecute it ſo far, as</hi> I <hi>found his aſsiſtance therein: And if it pleaſe him to inable me ſo long, as that</hi> I <hi>may moddell this undertaking in ſuch a method, that an other may as well execute it as my ſelfe; When ſo much is done, then ſhall my Conſcience in diſcharge of my duty, be at quiet. Where<g ref="char:EOLhyphen"/>fore</hi> I <hi>declare, That this propoſall is preſented upon no other re<g ref="char:EOLhyphen"/>ſolution then this, namely, if God pleaſe to continue my life and underſtanding but one Yeare or two,</hi> I <hi>hope, through his bleſsing, to acquit mens expectations of the good that will acrew by it; and to let them ſee, by Publiſhing my preſcripts, and annexing the obſervations, what effect they have had over mens infirmities and bodily diſtempers, and rating every ſuch Preſcript as equal<g ref="char:EOLhyphen"/>ly to their coſt of making, as may be: That then</hi> I <hi>deſire to ceaſe and execute it no further, having worke enough at home. But onely to recommend your charitable Contributions to Dr.</hi> Ed<g ref="char:EOLhyphen"/>ward VVilſon, <hi>and Mr.</hi> VVilliam Tonſtall, <hi>to whom God hath given gifts of minde, and health of body proportionable for ſo great a worke.</hi>
+            </p>
+            <p n="2">2. To the ſecond, <hi>'Tis in your hands to looke to it, you may finde ſome motives following, that will let you ſee (beſides
+<pb n="3" facs="tcp:38009:2"/>what your own Conſciences will dictate when you are upon your ſicke Bedds, and feel the comfort or want of Phyſitians help) That tis Gods will,</hi> You love your Neighbour as your ſelves.</p>
+            <p n="3">3. To the third, <hi>For the care and diligence of the Chyrur<g ref="char:EOLhyphen"/>geon, by nominating the man we ſhall imploy (his demeanor hath been ſuch already) that</hi> I <hi>hope tis enough to ſatisfie you herein, Mr.</hi> Thomas Cooper <hi>the younger.</hi>
+            </p>
+            <p>
+               <hi>For the care of the other,</hi> I <hi>ſhall undertake for them, ſo long as</hi> I <hi>meddle in this buſineſſe; And then, experience of their accompts will confirme your approbation of them.</hi>
+            </p>
+            <p>Theſe things premiſed, you may ſee likelihood enough for a conſtant ſettlement of your Charity: and that the work is diſtributed amongſt five perſons, two Phyſitians to give advice, the other three to attend and adminiſter it, which they may mutually proſecute without diſtinction of Surgery, or ſervant Apothecary; for as our Surgeon with aſſiſtant ad<g ref="char:EOLhyphen"/>vice, may knowingly and ſafely give ſuch Phyſicke as we ſhall direct; ſo the other two, having ſeen the experience of our practice, may be uſefull to help (following the direction of the Surgeon and Phyſitian) the poor people in any bodily infirmity.</p>
+            <p>This, I hope, may ſerve to aſſure you, That (if plentifull contribution be not wanting) there is probable means enough to doe the Country, both poor and rich, much good. And that you may know how little my hand is in this deſigne, I ſhall relate to you, how I neither begun, nor proſecuted it other<g ref="char:EOLhyphen"/>wiſe, then providence directed, my Conſcience urging me thereunto.</p>
+            <p>It was my occaſionall Diſcourſe to a Magiſtrate of this County, touching the benefits of having an honourable ſtand<g ref="char:EOLhyphen"/>ing maintenance for approved Phyſitians in this County, and the many ſad evills which was dayly contracted by the neglect hereof, and at how eaſie a charge it may be accom<g ref="char:EOLhyphen"/>pliſhed.
+<pb n="4" facs="tcp:38009:3"/>pliſhed. To inſtance the benefits. Firſt, <hi>The ſuccour of the Poore, whoſe cryes were lowde, that there was none to help them, but they muſt live miſerably, or dye deſperately, in adventring their bodies into the bands of ſuch as had no promiſe of Gods aſsiſtance and bleſsing to practice Phyſicke, being un-called and un-fitted thereunto. And though this evill hath troubled the Common-wealth, as appeares by the Laws made againſt it, yet could it never be prevented otherwiſe, then thus, by propounding to them, how they may have adviſe of Phyſitians and Phyſicke for nothing.</hi>
+            </p>
+            <p>Secondly, <hi>The good and ſafety of all; For, whereas it is generally believed, after once any hath made uſe of a Phyſitian, and God hath bleſſed the means with Succeſſe; that Party may with more ſecurity, rely upon the ſame Phyſitians adviſe, then upon a ſtrangers, who knows not by experience the diſpoſition of the party to Phyſicke, but onely by probable arguments. Now ſup<g ref="char:EOLhyphen"/>poſing the Country Phyſitians, which had moſt of the practice, were obliged to Regiſter all mens caſes as they were preſented to them, freely writing the perticulers of their Medicines, then may both Patient and Phyſitian that comes after him, know bet<g ref="char:EOLhyphen"/>ter how to proceed, when next occaſion is offered.</hi>
+            </p>
+            <p>Thirdly, <hi>The advance of Knowledge, he being ingaged with<g ref="char:EOLhyphen"/>in the limit of the firſt three Yeares, to Write a Booke</hi> of the Body of Phyſicke, <hi>which may be ſuppoſed the Summe of all his Reading and Study, which being ſtill kept, might further his Succeſſors. And if in his practice, he meet with any perticuler ſecret, he likewiſe ſhould note that for the ſame end.</hi>
+            </p>
+            <p>Fourthly, <hi>The Glory of God. We ſay,</hi> take away the Cauſe, and the Effect ceaſeth; <hi>this is an undeniable Principle, yet ordinarily it is contradicted in the Phyſitians and Patients practice: For the Cauſe, Principall, Antecedant, Concomitant, and</hi> ſine qua non, <hi>is Sinne, and that in every</hi> Diſeaſe, <hi>this therefore in right Method ſhould firſt be removed, but it is
+<pb n="5" facs="tcp:38009:3"/>laſt thought upon. How would God bleſſe the preceedings of the Phiſitian, and Sanctifie the ſickeneſſe of the Patient, if that order were made, That none (if neceſsity did non prohibit) ſhould expect a Phyſitians aſsiſtance, before the Miniſter have Viſited him, except the ſicke party he a Recuſant?</hi>
+            </p>
+            <p>To ſumme up all, Whatſoever evill were deſired to be re<g ref="char:EOLhyphen"/>moved, or good done that layd in the power of the Phyſitian, he being the Countries Servant, might have ſuch Rules pre<g ref="char:EOLhyphen"/>ſcribed by the ableſt of the Benefactors, that he ſhould not tranſgreſſe to the prejudice of either ſoule or body.</p>
+            <p>And although all this were approved of, yet little hopes appeared, that theſe waſting times ſhould make up ſo conſi<g ref="char:EOLhyphen"/>derable a ſumme, as this buſineſſe required: Therefore I pre<g ref="char:EOLhyphen"/>ſented to the Juſtices (whom I took to be the Phyſitians, de<g ref="char:EOLhyphen"/>pured of God for reliefe of the poor) motives of conſide<g ref="char:EOLhyphen"/>ration in behalſe of the indigent people, that they would but conſider how many ſad events in one Yeare happens, for want of thoſe remedies which were (by Gods Ordinance) as neceſ<g ref="char:EOLhyphen"/>ſary to preſerve life in time of infirmity, as Meat and Drink in time of health.</p>
+            <p>This motion (though approved) yet could not be granted, becauſe the Law allowed of no Aſſeſſement for reliefe of this nature. Failing here, I reſolved to try the Friends God had given me, and ſee if they would make contribution, which might be in anſwer hereunto. And from all that I mentioned it unto, I received ſuch incouragement through their Liberal<g ref="char:EOLhyphen"/>lity, that I was induced to move it to the reſt of the Coun<g ref="char:EOLhyphen"/>try, that all might have notice, and no man might be excluded that deſired to joyne aſſiſtance to this worke of Charity.</p>
+            <p>Wherefore I judge it my part to propound theſe two Caſes.</p>
+            <p n="1">1 <hi>I wiſh (unleſſe they reſolve to ſettle a maintenance ſtand<g ref="char:EOLhyphen"/>ing for County Phyſitians) that I may have the liberty (with<g ref="char:EOLhyphen"/>out
+<pb n="6" facs="tcp:38009:4"/>the ill will or cenſure of any man) to ſignifie to thoſe my Re<g ref="char:EOLhyphen"/>lations, who have no jealouſie of my propoſall, That I may have what contribution they pleaſe for the poor Yearely, and I ſhall ſaithfully disburſe it upon thoſe whom they pleaſe to recommend to my care, in caſes of Phyſicke and Chirurgery: And they will ſee Yearely what account I ſhall be able to give them, wiſhing from my heart, that all other Phyſitians would doe the like to their Relations, that ſo the worke may be better diſtributed amongſt us.</hi>
+            </p>
+            <p n="2">2. <hi>If they doe reſolve to ſettle a ſtanding allowance as is ex<g ref="char:EOLhyphen"/>preſſed, I ſhall give them my beſt furtherance and aſsiſtance in it, Thus;</hi>
+            </p>
+            <p>Firſt, I conſider the charge of Money, That it will be ne<g ref="char:EOLhyphen"/>ceſſary to indent with one Chirurgeon at the leaſt, binding our ſelves to pay him twenty pounds <hi>per Annum,</hi> during the time of this Contribution, for his care and pains in caſes of Chyrurgery, which we ſhall recommend to him, giving him our aſsiſtance and advice herein; and defraying all his charge that is expended about it.</p>
+            <p>In like manner it is necoſſary, That we indent with an Apothecary, allowing him accordingly for making up our preſcriptions, and diſtributing them without payment.</p>
+            <p>It is alſo neceſſary, That an other be indented with for at<g ref="char:EOLhyphen"/>tending thoſe preparations which are done by the Art of Chimiſtry; and leaſt people may conceive this to be need<g ref="char:EOLhyphen"/>leſſe: I deſire to let them know, that it is abſolutely neceſ<g ref="char:EOLhyphen"/>ſary and convenient, becauſe none ever practiſed Phyſicke, but he found continuall uſe of ſuch Medicines, though he thought it a point of diſcretion to cover his practiſing of them from the know ledge of the Patient, which is general<g ref="char:EOLhyphen"/>ly affrighted with the name of a Minerall, becauſe the un<g ref="char:EOLhyphen"/>skilfull practice of many, hath occaſioned this miſpriſion of Chymiſtry. If I be not beleeved herein, let any Graduate
+<pb n="7" facs="tcp:38009:4"/>Artiſt charge me with a Lye. Beſides (to thoſe that know me, I ſpeak) unleſſe the Lord had ſignally inſtructed me in ſome thing of this Art, and witneſſed his approbation there<g ref="char:EOLhyphen"/>in, with concurrances of his bleſſing, I ſhould (ſince the time I knew my ſelfe) never have dar'd to harbour one houres ſtuddy in theſe matters, wherein I had fayled ſo much in expence of time and money formerly: I will not ſay more herein, then may be ſatisfactory to the Contribu<g ref="char:EOLhyphen"/>tors, that the hopefull improvement of thoſe ſcraps, which I have gathered <hi>hic &amp; ubique,</hi> I ſhall bequeath into good hands for their uſe.</p>
+            <p>Againe, 'tis neceſſary that ſo much be allotted for pro<g ref="char:EOLhyphen"/>viſions of Dyet and Lodging, during the Cure of ſuch, whoſe Malladies require dayly attendance here in Towne.</p>
+            <p>It is convenient, that there be a Library of Phyſicke Bookes, and a ſmall Annuall ſumme for inlarging the ſame.</p>
+            <p>Theſe are the Charges, as appurtenances to the maine Disburſements of Medicines and, Maintenance of Phyſi<g ref="char:EOLhyphen"/>tians.</p>
+            <p>The Accompt which we have ingaged to Regiſter con<g ref="char:EOLhyphen"/>ſiſts of two parts. Firſt, The Accompt of the Money Re<g ref="char:EOLhyphen"/>ceived, and how it is Expended: it is done in this Forme.</p>
+            <q>
+               <list>
+                  <item>
+                     <hi>Contribution of each Pariſh.</hi>
+                  </item>
+                  <item>
+                     <hi>The whole ſumme of Contribution.</hi>
+                  </item>
+               </list>
+               <list>
+                  <head>The Disburſements.</head>
+                  <item>
+                     <hi>For Medicines, as appears by the Apothecaries Bills To ſuch a ſicke perſon.</hi>
+                  </item>
+                  <item>
+                     <hi>Payd for Lodging and Dyet of ſuch a ſicke perſon for <gap reason="blank" extent="1 word">
+                           <desc> _____ </desc>
+                        </gap> Dayes</hi>
+                  </item>
+                  <pb n="8" facs="tcp:38009:5"/>
+                  <item>
+                     <hi>Payd for Chyrurgeons, and Meſſengers, for Charges of Houſes and themſelves in their Viſits.</hi>
+                  </item>
+                  <item>
+                     <hi>Payd for Printing, Writing, and ſending Letters, and for the Collection.</hi>
+                  </item>
+                  <item>
+                     <hi>Remaining in our hands for our pains and advice to be leſſened, or augmented, as the Contributors every Yeare ſhall think fit</hi> —</item>
+               </list> 
+            </q>
+            <p>For this is our deſire mainely, that Monies be not wanting for neceſſary charges of Phyſicke, and attending it. And for our advice, we referr it to the County, when they ſee what we have done, which will deſerve more one Yeare, then another.</p>
+            <p>The ſecond Part is the Accompt of Gods bleſſing on our Endeavours towards the Poore.</p>
+            <p>If this Accompt be without fraud made legi<g ref="char:EOLhyphen"/>ble to all mens capacities; then the mouths of falſe feares and jealouſies are ſtopped: which that they may be, I deſire the Information in the behalfe of any poor creature, be in this Forme.</p>
+            <pb n="9" facs="tcp:38009:5"/>
+            <q>
+               <p>A. B. <hi>Inhabitant of</hi> C. <hi>about the Age of <gap reason="blank" extent="1 word">
+                        <desc> _____ </desc>
+                     </gap> Yeares; ſuch a Day was in this manner afflicted, contracted as is ſuppoſed, by occaſion of <gap reason="blank" extent="1 word">
+                        <desc> _____ </desc>
+                     </gap> , or not: who was formerly of ſound Health, or otherwiſe inclineable to ſuch a Diſtem<g ref="char:EOLhyphen"/>per. It continued after ſuch manner, till this time <gap reason="blank" extent="1 word">
+                        <desc> _____ </desc>
+                     </gap> This is the Water, we referre him to your Care under God, and we promiſe for him you ſhall have an Account what Effect thoſe Meanes ſhall produce, which you direct.</hi>
+               </p>
+            </q>
+            <p>This I judge requiſite, leaft the Country faſhion be obſerved, in ſending their Urine without further Information; ſuppoſing we ſhall know enough thereby, how, ſafely to Adminiſter Advice in all Caſes.</p>
+            <p>After the Information is Regiſtated, the Advice of the Phyſitian I promiſe to Re<g ref="char:EOLhyphen"/>giſter.</p>
+            <pb n="10" facs="tcp:38009:6"/>
+            <p>It is judged, <hi>That the Information Signed by</hi> A. B <hi>doth manifeſt a putrid Fevor, wherefore let there be Adminiſtred after Bleeding, Firſt, A preparitory Potion; A Vomit the next Day; And then a Cordiall ſweat, as they are knowne by their Names in the</hi> Pharmacopaea Dunelmenſis. <hi>The Effects whereof, as it hath pleaſed God to diſ<g ref="char:EOLhyphen"/>poſe, may be Read in the Catalogue of the re<g ref="char:EOLhyphen"/>turnes ſent from the poore Patients, to be Col<g ref="char:EOLhyphen"/>lected together in one Booke.</hi>
+            </p>
+            <p>So when the Information is Viewed, the Judgement and Advice upon it; the Pre<g ref="char:EOLhyphen"/>ſcriptions to the Apothecary, how they an<g ref="char:EOLhyphen"/>ſwer the Advice, and the Returnes what Effect ſuch advice hath produced, I hope I have acquitted the Engagement.</p>
+            <p>For the Remote Parts, as <hi>Darneton Ward,</hi> leaſt diſtance of Place make this Propoſall leſſe Effectuall in their behalfe; I doe pro<g ref="char:EOLhyphen"/>miſe to leave a Cheſt of Medicines, and im<g ref="char:EOLhyphen"/>ploy one thereabout, who ſhall carefully pro<g ref="char:EOLhyphen"/>ſecute the intent of our Deſigne, with leſſe trouble then comming to <hi>Durham,</hi> except in caſes of difficulty.</p>
+            <pb n="11" facs="tcp:38009:6"/>
+            <p>This alſo I wiſh may be knowne, That two Moneths about <hi>Midſummer,</hi> being a Sea<g ref="char:EOLhyphen"/>ſon, but in extreame caſes, unfit to move the humors in the Body, I ſhall attend my Duty at the Well on <hi>Gaterly Moore,</hi> adjacent to this County.</p>
+            <p>This Water is of the Nature of Sweet Spawes, which partakes of Vitrioll; the Spaw at <hi>Knaisborough</hi> a little exceeds it in this pro<g ref="char:EOLhyphen"/>perty, and therefore is more effectuall for Gravell in the Kidneys: but for Diſeaſes of the Female Sex, proceeding from the Spleene and Matrix; as alſo for Wormes, and all other Diſeaſes, none excepted (with due care of Phyſicke taken.) This Water hath the preheminence, (to my judgement and experi<g ref="char:EOLhyphen"/>ence) of others in the North Parts; the Rea<g ref="char:EOLhyphen"/>ſon from hence is, That it partakes of the Tinne and Lead: the former Mettall is ap<g ref="char:EOLhyphen"/>proved to be of uſe in Mens Bodies next to Gold; from the latter, it hath properties which are knowne to Phyſitians, and there<g ref="char:EOLhyphen"/>fore is not ſafe for Women Conceived to med<g ref="char:EOLhyphen"/>dle with it. I wiſh this neceſſary Caveat be not abuſed to ſinne</p>
+            <pb n="12" facs="tcp:38009:7"/>
+            <p>I hope the Country may be now ſatisfied, That if there be no want on their Parts of Charity, the Poore ſhall not ſuffer in loſſe of Health or Life, ſo farre as my Care and En<g ref="char:EOLhyphen"/>deavour can prevent. And ſeeing the onely ground and bothome of this undertaking (next to the approbation of God) is the good will and opinion of the Contributors, having no feare at all, that they by exceed<g ref="char:EOLhyphen"/>ing their Contribution with Meſſages of Pa<g ref="char:EOLhyphen"/>tients, have purpoſe to impoveriſh me in my Actings for the Poore: Wherefore as I hope to be Inſtrumentally helpfull to them, let no Man forbeare to ſend to us in their behalfe when there ſhall be need. Theſe things pre<g ref="char:EOLhyphen"/>miſed, I deſire it may be Publiſhed as fol<g ref="char:EOLhyphen"/>loweth.</p>
+            <q>
+               <pb n="13" facs="tcp:38009:7"/>
+               <p>
+                  <hi>THeſe are to ſignifie, That</hi> George Tonſtall, <hi>and</hi> William Tonſtall <hi>Re<g ref="char:EOLhyphen"/>ſiding in</hi> Durham, <hi>have undertaken to ſup<g ref="char:EOLhyphen"/>ply any Poore Perſon, being an Inhabitant of this County, that ſhall be any way in<g ref="char:EOLhyphen"/>firme, with Advice and Phyſicke according to their beſt Skill, in all Caſes wherein Phy<g ref="char:EOLhyphen"/>ſicke or Chirurgery is required (except in the caſe of common Plague) without any charge to them, from the firſt of</hi> Aprill 1655. <hi>And they deſire, that ſuch Gen<g ref="char:EOLhyphen"/>tlemen, Free-holders, and others, who thinke ſit to Contribute in this Charitable Propo<g ref="char:EOLhyphen"/>ſall, towards the Diſcharge of the Phy<g ref="char:EOLhyphen"/>ſicke, and neceſſary Charge hereof, to ſub<g ref="char:EOLhyphen"/>ſcribe their Names, and the Summe they will freely Yearely give, to be returned to us. And that they will Yearely Pay ſuch Summes to the reſpective Miniſters of the ſeverall Pariſhes, for our <g ref="char:V">Ʋ</g>ſe: the
+<pb n="14" facs="tcp:38009:8"/>one moyety on the firſt of</hi> May; <hi>and the other moyety on the five and twentieth of</hi> December: <hi>And they doe Ingage to Re<g ref="char:EOLhyphen"/>giſter their proceedings, to that end the ſaid Contributers may receive Accompt Yearely how they diſcharge their Truſt here<g ref="char:EOLhyphen"/>in. Provided ſuch Poore Perſon Inha<g ref="char:EOLhyphen"/>bitant as aforeſaid, that ſhall apply them<g ref="char:EOLhyphen"/>ſelves unto the ſaid</hi> George <hi>and</hi> William Tonſtall, <hi>doe procure and ſend a Note or Certificate from any <note n="*" place="margin">It is den<g ref="char:EOLhyphen"/>ied vvhen convenien<g ref="char:EOLhyphen"/>cy vvill permit, that one of them be a Miniſter.</note> three of the ſaid Con<g ref="char:EOLhyphen"/>tributers, that they are of ſuch as are in<g ref="char:EOLhyphen"/>tended within this Charitable Propoſall.</hi>
+               </p>
+            </q>
+            <pb n="15" facs="tcp:38009:8"/>
+            <p> The onely deſigne next, in proſecution hereof is, to frame a <hi>Diſpenſatory</hi> in ſuch a Method, that if any Perſon can but have true advice what kinde of Remedies is needfull for them to uſe, then ſhall it be ſufficient dire<g ref="char:EOLhyphen"/>ction to mine Apothecary what to give him, without preſcribing ſuch and ſuch things in particular. And this, I hope, will be a benefi<g ref="char:EOLhyphen"/>ciall worke, becauſe men propheſſing Phyſick, ſeldome differ in Judgement concerning what is to be done, and after what manner. The Logicall rules of Art leade men together thus farre: but with what ſhall our intentions be performed, here lyes the Diſpute? For it is na<g ref="char:EOLhyphen"/>turall, that he that hath made his practice with ſuch Receipts, will not yeeld to alter them upon anothers commending his. This knot will be looſed, when the <hi>Diſpenſatory</hi> is Viewed, with Obſervations how they tooke effect; Phyſitians then may judge of them. I wiſh them ſo much comfort, as a willing heart, to adjoyne their Receips hereto: And when all is approved on, none need differ in uſing them.</p>
+            <pb n="16" facs="tcp:38009:9"/>
+            <p> An Abſtract of the Poore Mans <hi>Panacaea,</hi> or <hi>Pharmacopaea Dunelmenſis.</hi>
+            </p>
+            <p>The Rationall Method of Cure, is perfor<g ref="char:EOLhyphen"/>med by Indication. And the ſubject of Indi<g ref="char:EOLhyphen"/>dication, is either
+<list>
+                  <item>1. <hi>Cauſa Materialis.</hi>
+                     <list>
+                        <item>
+                           <hi>Antecedent.</hi>
+                        </item>
+                        <item>
+                           <hi>Continent.</hi>
+                        </item>
+                     </list>
+                  </item>
+                  <item>2. <hi>Pars affecta.</hi>
+                  </item>
+                  <item>3. <hi>Symptomata.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. The Materiall Cauſe being praeternaturall, hath for its Indication Evacuation, which is either of
+<list>
+                  <item>1. <hi>Blood.</hi>
+                  </item>
+                  <item>2. <hi>Humors.</hi>
+                  </item>
+                  <item>3. <hi>Wormes.</hi>
+                  </item>
+                  <item>4. <hi>Stone and Gravell,</hi>
+                  </item>
+                  <item>5. <hi>Winde.</hi>
+                  </item>
+                  <item>6. <hi>Maligne Vapors.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Externall accidents
+<list>
+                  <item>
+                     <hi>Thorns.</hi>
+                  </item>
+                  <item>
+                     <hi>Splinters.</hi>
+                  </item>
+                  <item>
+                     <hi>Dirt and gravel,</hi> &amp;c.</item>
+               </list>
+            </p>
+            <p n="1">1. Blood hath its Evacuation by Lances, Leeches, &amp;c.</p>
+            <p n="2">2. Humors are divided ordinarily into
+<list>
+                  <item>
+                     <hi>Choller.</hi>
+                  </item>
+                  <item>
+                     <hi>Phlegme.</hi>
+                  </item>
+                  <item>
+                     <hi>Melancholy.</hi>
+                  </item>
+                  <item>
+                     <hi>Water.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Theſe have their proper Evacuatories
+<pb n="17" facs="tcp:38009:9" rendition="simple:additions"/>Evacuatories
+<list>
+                  <item>in Generall are
+<list>
+                        <item>
+                           <hi>Vomits.</hi>
+                        </item>
+                        <item>
+                           <hi>Purges.</hi>
+                        </item>
+                        <item>
+                           <hi>Salivation.</hi>
+                        </item>
+                        <item>
+                           <hi>Sweats.</hi>
+                        </item>
+                        <item>
+                           <hi>Diureticks.</hi>
+                        </item>
+                        <item>
+                           <hi>Bliſtering.</hi>
+                        </item>
+                        <item>
+                           <hi>Fomentation.</hi>
+                        </item>
+                     </list>
+                  </item>
+                  <item>which are either
+<list>
+                        <item>Internall
+<list>
+                              <item>
+                                 <hi>Drinke.</hi>
+                              </item>
+                              <item>
+                                 <hi>Cordial Electuries.</hi>
+                              </item>
+                              <item>and <hi>Powders.</hi>
+                              </item>
+                           </list>
+                        </item>
+                        <item>Externall
+<list>
+                              <item>
+                                 <hi>Bath.</hi>
+                              </item>
+                              <item>
+                                 <hi>Fuming.</hi>
+                              </item>
+                           </list>
+                        </item>
+                     </list>
+                  </item>
+                  <item>in Particular,
+<list>
+                        <item>
+                           <hi>Errhina.</hi>
+                        </item>
+                        <item>
+                           <hi>Apophlegmatiſmi.</hi>
+                        </item>
+                        <item>
+                           <hi>Tuſſilagogs,</hi> &amp;c.</item>
+                     </list>
+                  </item>
+               </list>
+            </p>
+            <p>Evacuatories by Stoole are either in forme of
+<list>
+                  <item>
+                     <hi>Pills.</hi>
+                  </item>
+                  <item>
+                     <hi>Electuaries.</hi>
+                  </item>
+                  <item>
+                     <hi>Potions.</hi>
+                  </item>
+                  <item>
+                     <hi>Powders.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>As Reaſon ſees cauſe to vary.</p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. The part affected: This hath for its In<g ref="char:EOLhyphen"/>dication, Corroboration, which is performed by oppoſition of helps <hi>Homogeniall</hi> to the tem<g ref="char:EOLhyphen"/>perament, and <hi>Humidum radicale.</hi> This <hi>Humi<g ref="char:EOLhyphen"/>dum radicale,</hi> conſiſts in the influentiall heate of the Heart (which communicates its life
+<pb n="18" facs="tcp:38009:10"/>and vigour to the whole Body) and the innate heate of every Part or Member.</p>
+            <p>Theſe helps are
+<list>
+                  <item>
+                     <hi>Aliments.</hi>
+                  </item>
+                  <item>
+                     <hi>Medicaments.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Medicaments are ſuch as we call, <hi>Cephalicks, Pectoralls, Cordialls, Stomachicks, Spleniticks, Hepaticks, Renall, and Matricall;</hi> theſe are pe<g ref="char:EOLhyphen"/>culiar to the noble parts of the Body, which reſpect the innate heate of each particular part, with a ſweet ſpirit agreeable to the Vi<g ref="char:EOLhyphen"/>talls: The variation of this Indication is one<g ref="char:EOLhyphen"/>ly in reſpect of the temperament in
+<list>
+                  <item>hot <hi>Diſtempers.</hi>
+                  </item>
+                  <item>cold <hi>Diſtempers.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="3">3. <hi>Symptoms.</hi> Theſe are ſuch Effects as fol<g ref="char:EOLhyphen"/>low the Diſeaſe, and have for their Indication their contraries.</p>
+            <p>The common Symptome, is paine; its con<g ref="char:EOLhyphen"/>trary is Anodine.</p>
+            <p>The other Symptoms are divided, in reſpect of
+<list>
+                  <item>
+                     <hi>Spitits.</hi>
+                  </item>
+                  <item>
+                     <hi>Blood and Humors.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="1">1. Spirits, as
+<list>
+                  <item>
+                     <hi>Want of Senſe.</hi>
+                  </item>
+                  <item>
+                     <hi>Want of Motion.</hi>
+                  </item>
+                  <item>
+                     <hi>Watchfulneſſe.</hi>
+                  </item>
+                  <item>
+                     <hi>Drowſineſſe.</hi>
+                  </item>
+               </list>
+            </p>
+            <pb n="19" facs="tcp:38009:10"/>
+            <p n="2">2. Blood, and Humors.</p>
+            <p>Theſe are divided in reſpect of their
+<list>
+                  <item>Qualities
+<list>
+                        <item>Firſt.</item>
+                        <item>Second.</item>
+                     </list>
+                  </item>
+                  <item>Motion.</item>
+               </list>
+            </p>
+            <p n="1">1. Firſt Qualities are
+<list>
+                  <item>
+                     <hi>Heat.</hi>
+                  </item>
+                  <item>
+                     <hi>Cold.</hi>
+                  </item>
+                  <item>
+                     <hi>Moyſture.</hi>
+                  </item>
+                  <item>
+                     <hi>Dryneſſe.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="2">2. Second Qualities are
+<list>
+                  <item>
+                     <hi>Thinneſſe.</hi>
+                  </item>
+                  <item>
+                     <hi>Clammineſſe.</hi>
+                  </item>
+                  <item>
+                     <hi>Groſſeneſse.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Motion, proceeding from
+<list>
+                  <item>
+                     <hi>the Head.</hi>
+                  </item>
+                  <item>
+                     <hi>the Stomacke.</hi>
+                  </item>
+                  <item>
+                     <hi>the Belly.</hi>
+                  </item>
+                  <item>
+                     <hi>the Liver.</hi>
+                  </item>
+                  <item>
+                     <hi>the Kidneyes.</hi>
+                  </item>
+                  <item>
+                     <hi>the Matrix.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Thus the materiall Cauſe, which is the maine opponent, is diſcovered; the part affe<g ref="char:EOLhyphen"/>cted ſtrengthened, and the Symptoms remo<g ref="char:EOLhyphen"/>ved; which comprehend the whole Method of Cure belonging to the Phyſitian.</p>
+            <pb n="20" facs="tcp:38009:11"/>
+            <p>Now followeth Chirurgery, which is a Me<g ref="char:EOLhyphen"/>thod performed by manuall operation upon the Body. The parts whereof are either
+<list>
+                  <item>
+                     <hi>Similare.</hi>
+                  </item>
+                  <item>
+                     <hi>Organicall.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="1">1. Similare are
+<list>
+                  <item>
+                     <hi>Bones.</hi>
+                  </item>
+                  <item>
+                     <hi>Nerves.</hi>
+                  </item>
+                  <item>
+                     <hi>Veines and Arteries.</hi>
+                  </item>
+                  <item>
+                     <hi>Membrans.</hi>
+                  </item>
+                  <item>
+                     <hi>Fleſh.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="2">2. Organicall are
+<list>
+                  <item>
+                     <hi>Head.</hi>
+                  </item>
+                  <item>
+                     <hi>Palate.</hi>
+                  </item>
+                  <item>
+                     <hi>Ears.</hi>
+                  </item>
+                  <item>
+                     <hi>Eyes.</hi>
+                  </item>
+                  <item>
+                     <hi>Noſe,</hi> &amp;c.</item>
+               </list>
+            </p>
+            <p>Infirmities belonging to theſe Parts, are either
+<list>
+                  <item>
+                     <hi>Tumors.</hi>
+                  </item>
+                  <item>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>lcers.</hi>
+                  </item>
+                  <item>
+                     <hi>Wounds.</hi>
+                  </item>
+                  <item>
+                     <hi>Impoſthumes.</hi>
+                  </item>
+                  <item>
+                     <hi>Contuſions.</hi>
+                  </item>
+                  <item>
+                     <hi>Gangrenes.</hi>
+                  </item>
+               </list>
+            </p>
+            <pb n="21" facs="tcp:38009:11"/>
+            <list>
+               <item>1. Tumors are
+<list>
+                     <item>
+                        <hi>Phlegmon.</hi>
+                     </item>
+                     <item>
+                        <hi>Eriſipilas.</hi>
+                     </item>
+                     <item>
+                        <hi>Oedema.</hi>
+                     </item>
+                     <item>
+                        <hi>Schirrus.</hi>
+                     </item>
+                     <item>
+                        <hi>Flatulent.</hi>
+                     </item>
+                     <item>
+                        <hi>Scrophular.</hi>
+                     </item>
+                     <item>
+                        <hi>Wens.</hi>
+                     </item>
+                  </list>
+               </item>
+               <item>2. Ulcers are
+<list>
+                     <item>Simple. Theſe require onely Conſolidation.</item>
+                     <item>Compound. Theſe are
+<list>
+                           <item>Mild, theſe are
+<list>
+                                 <item>Plain. ſinnuous are
+<list>
+                                       <item>Callons, as the Fiſtula</item>
+                                       <item>without calloſity</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </item>
+                           <item>Malignant, and corroding,</item>
+                        </list>
+                     </item>
+                  </list> theſe are
+<list>
+                     <item>
+                        <hi>Herpes.</hi>
+                     </item>
+                     <item>
+                        <hi>Phagedaina.</hi>
+                     </item>
+                     <item>
+                        <hi>Noema.</hi>
+                     </item>
+                     <item>
+                        <hi>Cancer.</hi>
+                     </item>
+                     <item>
+                        <hi>Leproſie.</hi>
+                     </item>
+                  </list>
+               </item>
+               <item>3. <hi>Wounds.</hi>
+               </item>
+               <item>4. <hi>Impoſthums.</hi>
+               </item>
+               <item>5. <hi>Contuſions.</hi>
+               </item>
+               <item>6. <hi>Gangrens,</hi> vary according to the diviſion of the Parts.</item>
+            </list>
+            <p>The Remedies anſwerable to all Indicati<g ref="char:EOLhyphen"/>ons in Phyſicke and Chyrurgery, ſhall (God
+<pb n="22" facs="tcp:38009:12"/>willing) be fitly Compoſed and Annexed to every branch of Indication, expreſſed in this Abſtract. Therefore when the <hi>Pharmacopaea Dunelmenſis</hi> is Compiled, you may ſee our buſineſſe is little more, then to give advice.</p>
+            <p>This Commodity alſo will ariſe, That if the Contribution will amount to no more then will finde the Poore with all Medicines neceſſary for Phyſicke or Chyrurgery; then may they have Advice <hi>gratis</hi> from any Artiſt, having ſuch Remedies for their uſe in all Ca<g ref="char:EOLhyphen"/>ſes, as ſhall be Publiſhed.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:38009:12"/>
+         </div>
+      </body>
+   </text>
+</TEI>
